@@ -21,10 +21,11 @@ class Dashboard extends Admin_Controller
 	* It passes the total product, total paid orders, total users, and total stores information
 	into the frontend.
 	*/
-	public function index()
+	
+	public function index() 
 	{
 		$this->data['total_products'] = $this->model_products->countTotalProducts();
-		$this->data['low_stock'] = $this->model_products->lowStock();
+		$this->data['low_stocks'] = $this->model_products->lowStock();
 		$this->data['total_paid_orders'] = $this->model_orders->countTotalPaidOrders();
 		$this->data['total_users'] = $this->model_users->countTotalUsers();
 		$this->data['total_stores'] = $this->model_stores->countTotalStores();
