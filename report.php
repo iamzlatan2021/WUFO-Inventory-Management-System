@@ -1,4 +1,4 @@
-
+//New feature that has been added into the system
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
