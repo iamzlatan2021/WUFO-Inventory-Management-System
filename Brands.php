@@ -61,7 +61,8 @@ class Brands extends Admin_Controller
 				$status,
 				$buttons
 			);
-		} // /foreach
+		} 
+		//foreach
 
 		echo json_encode($result);
 	}
