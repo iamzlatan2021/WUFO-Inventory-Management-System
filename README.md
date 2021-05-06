@@ -2,4 +2,4 @@ WUFO Inventory System Management is a web-based framework for businesses that ca
 
 The inventory of a company is one of its most precious properties. In the grocery, manufacturing , food service and other inventory-intensive industries, the company's inputs and finished goods are at the centre of its market. The shortage of stocks when and where it is necessary can be extremely harmful.
 
-You can try this localhost: http://localhost/stock/home/home.php
+You can try this localhost: http://localhost/stock/home/home.php 
