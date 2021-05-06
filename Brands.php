@@ -182,7 +182,7 @@ class Brands extends Admin_Controller
 	* It removes the brand information from the database 
 	* and returns the json format operation messages
 	*/
-	public function remove()
+	public function remove1()
 	{
 		if(!in_array('deleteBrand', $this->permission)) {
 			redirect('dashboard', 'refresh');
