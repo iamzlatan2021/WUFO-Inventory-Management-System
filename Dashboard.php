@@ -22,7 +22,7 @@ class Dashboard extends Admin_Controller
 	into the frontend.
 	*/
 	
-	public function index()
+	public function index() 
 	{
 		$this->data['total_products'] = $this->model_products->countTotalProducts();
 		$this->data['low_stocks'] = $this->model_products->lowStock();
